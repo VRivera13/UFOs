@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
   <title>UFO Finder</title>
   <link
     rel="stylesheet"
@@ -24,8 +24,8 @@
   </div>  
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-4">
-          <h3>UFO Sightings: Fact or Fancy? <small>Ufologists Weigh In</small></h3>
+        <div class="col-md-3">
+          <h3>UFO Sightings: Fact or Fancy? <br><small>Ufologists Weigh In</small></h3>
         </div>
         <div class="col-md-8">
           <p>
@@ -39,29 +39,31 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-3">
-          <form class="bg-dark">
-            <p>Filter Search</p>
-          </form>
-          <ul class="bg-dark">
+          <div class="filters"></div>
+            <form class="bg-dark">
+              <p>Filter Search</p>
+           
+          <ul class="bg-dark" >
             <li class="bg-dark">
-              <label for="date">Enter Date</label>
+              <label for="date">Enter Date</label><br>
               <input type="text" placeholder="1/10/2010" id="datetime" />
             </li>
             <li class="bg-dark">
-              <label for="city">Enter City</label>
+              <label for="city">Enter City</label><br>
               <input type="text" placeholder="benton" id="city" />
             </li>
             <li class="bg-dark">
-              <label for="state">Enter State</label>
+              <label for="state">Enter State</label><br>
               <input type="text" placeholder="ar" id="state" />
             </li>
             <li class="bg-dark">
-              <label for="country">Enter Country</label>
+              <label for="country">Enter Country</label><br>
               <input type="text" placeholder="us" id="country" />
             </li>
             <li class="bg-dark">
-              <label for="shape">Enter Shapte</label>
+              <label for="shape">Enter Shapte</label><br>
               <input type="text" placeholder="circle" id="shape" />
+            </form>
             </li>
           </ul>
         </div>
