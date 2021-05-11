@@ -8,7 +8,7 @@ Upon entering the website, the clients will be welcomed by the known message "Th
 ![screenshotone](https://github.com/VRivera13/UFOs/blob/main/Screenshot%202021-05-11%20195230.png)
 
 As the users continue to scroll down the page they will find information related to differen sightings data that has been collected.    To the left to the website, they will find five options of which to filter by.    They have the ability to search by date, city, state, country, and/or shape.   More than one search option can be used at a time.   This helps narrow down the specific selections for the user.
- *enter screenshot2**
+![screenshottwo](https://github.com/VRivera13/UFOs/blob/main/Screenshot%202021-05-11%20195256.png)
 
 
 ## Summary
